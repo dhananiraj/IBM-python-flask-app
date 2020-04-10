@@ -86,10 +86,10 @@ cm.add(Command(
 		'FLASK_DEBUG': 'true'
 	}))
 
-cm.add(Command(
-	"test",
-	"runs all tests inside of `tests` directory",
-	lambda c: 'python -m unittest discover -s tests -p "*.py"'))
+# cm.add(Command(
+# 	"test",
+# 	"runs all tests inside of `tests` directory",
+# 	lambda c: 'python -m unittest discover -s tests -p "*.py"'))
 
 # Create and format argument parser for CLI
 parser = argparse.ArgumentParser(description=cm.availableCommands(),
