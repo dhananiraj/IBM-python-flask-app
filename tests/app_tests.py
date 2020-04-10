@@ -21,4 +21,8 @@ class ServerTestCase(unittest.TestCase):
         assert b'UP' in result.data
 
 if __name__ == '__main__':
-    unittest.main()
+    
+    try :
+        unittest.main()
+    except :
+        print('something is worng.')
