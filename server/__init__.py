@@ -5,6 +5,8 @@ from flask import Flask, abort, session, request, redirect
 from flask.json import jsonify
 from flask_cors import CORS
 
+# created by Raj Dhanani
+
 app = Flask(__name__, static_folder="../public/frontend/build", static_url_path='')
 CORS(app)
 
